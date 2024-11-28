@@ -1,0 +1,37 @@
+
+
+.HOJA{
+    MIN-height: 50VH;
+    border: 2PX SOLID black;
+    padding-top: 5VH;
+   padding-left: 10VH;
+   padding-bottom: 10VH;
+   padding-right: 10VH;
+   font-size: x-large;
+}
+
+h1{
+    color: green;
+    font-display: center;
+    text-align: center;
+}
+
+h2{
+    color: orange;
+}
+
+.img{
+    width: 120vh;
+}
+
+.numero{
+    text-align: right;
+color: red;
+}
+
+@media only screen and (max-width: 897px){
+    .img{
+        width: 60vh;
+    }
+
+}
